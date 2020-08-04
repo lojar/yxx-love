@@ -859,4 +859,3 @@ $(function() {
 			ctx.fillRect(text.x - text.size, text.y - text.size, text.size * 2, text.size * 2);
 		}
 	}
-})
