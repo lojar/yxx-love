@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>firework</title>
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 </head>
 <style>
   canvas {
@@ -52,10 +53,9 @@ body{padding: 0px;margin: 0px}
   <audio class="launch" src="m/launch5.mp3" controls></audio>
   <audio class="launch" src="m/launch5.mp3" controls></audio>
 </div>
-<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
 </body>
 <script>
-  $(function() {
 	var canvas = $('#canvas')[0];
 	canvas.width = $(window).width();
 	canvas.height = $(window).height();
@@ -916,6 +916,5 @@ body{padding: 0px;margin: 0px}
 			ctx.fillRect(text.x - text.size, text.y - text.size, text.size * 2, text.size * 2);
 		}
 	}
-})
 </script>
 </html>
